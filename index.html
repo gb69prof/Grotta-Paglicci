@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -37,137 +36,421 @@
         </aside>
 
         <main class="content">
+
+            <!-- VIDEO HEYGEN -->
+            <section class="hero-media">
+                <h2>Video introduttivo</h2>
+                <p class="section-lead">
+                    Guarda questo breve video introduttivo: presenta il significato di Grotta Paglicci
+                    e anticipa il percorso che troverai nella web app.
+                </p>
+                <div class="video-wrapper">
+                    <iframe width="560" height="315"
+                        src="https://app.heygen.com/embedded-player/fa4e367adfec4b738f7e29d11d53abfa"
+                        title="HeyGen video player"
+                        frameborder="0"
+                        allow="encrypted-media; fullscreen;"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- GEOLOCALIZZAZIONE -->
+            <section class="section map-section">
+                <h2>Geolocalizzazione: dov’è Grotta Paglicci?</h2>
+                <p class="section-lead">
+                    Grotta Paglicci si trova nel promontorio del Gargano, in località Rignano Garganico
+                    (provincia di Foggia), affacciata sul Vallone Settepenne: una posizione strategica tra
+                    altopiano carsico e Tavoliere, ricca di acqua e fauna.
+                </p>
+                <div class="map-card">
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps?q=Grotta%20Paglicci%2C%20Rignano%20Garganico&output=embed"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <p class="map-note">
+                        Puoi ingrandire la mappa per vedere meglio il rapporto tra la grotta, il Vallone Settepenne
+                        e la piana del Tavoliere.
+                    </p>
+                </div>
+            </section>
+
+            <!-- 1. INTRO -->
             <section id="intro" class="section">
                 <h2>1. Dove tutto inizia: il contesto della Grotta</h2>
                 <p class="section-lead">
-                    Grotta Paglicci si apre sul versante nord del Gargano, all&apos;imbocco di un complesso carsico articolato.
-                    Questa sezione presenta il luogo, il paesaggio e le ragioni per cui qui si concentra una storia lunghissima.
+                    Grotta Paglicci è uno dei siti preistorici più importanti d’Europa: un archivio continuo
+                    che documenta vita, morte e simboli dall’Homo sapiens delle origini fino alla fine del Paleolitico.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: mappa interattiva, foto del sito, breve testo introduttivo sul Gargano paleolitico.
-                </p>
+
+                <details class="section-details" open>
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            La grotta si trova sul versante orientale del Vallone Settepenne, nel promontorio del Gargano.
+                            La scelta di questo luogo non è casuale: il paesaggio del Pleistocene era un mosaico di foreste
+                            e spazi aperti, ideale per la caccia a grandi erbivori come uri, cavalli e cervidi.
+                        </p>
+                        <p>
+                            La posizione tra altopiano carsico e piana del Tavoliere garantiva accesso a acqua, fauna
+                            e vie naturali di spostamento. Per questo Paglicci è una vera “finestra temporale” quasi
+                            ininterrotta sull’evoluzione umana nel Sud Europa.
+                        </p>
+                        <p>
+                            Qui non troviamo solo tanti reperti: troviamo una storia coerente, che permette di seguire
+                            le strategie di adattamento di gruppi umani di epoche diverse agli sbalzi climatici
+                            dell’ultima glaciazione.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 2. STRATIGRAFIA -->
             <section id="stratigrafia" class="section">
                 <h2>2. Stratigrafia: dodici metri di memoria</h2>
                 <p class="section-lead">
-                    Oltre dodici metri di sedimenti raccontano la frequentazione della grotta dal Paleolitico inferiore
-                    all&apos;Epigravettiano finale. Ogni strato è una pagina di storia.
+                    Oltre dodici metri di sedimenti raccontano una frequentazione che va dal Paleolitico inferiore
+                    all’Epigravettiano finale: ogni strato è una pagina di storia umana.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: schema stratigrafico semplificato, timeline interattiva, video sul metodo stratigrafico.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            La sequenza stratigrafica di Grotta Paglicci copre circa 200.000 anni. I livelli più antichi
+                            documentano fasi del Paleolitico inferiore e medio, legate a specie umane precedenti all’Homo sapiens.
+                            Con il Paleolitico superiore, la serie diventa estremamente dettagliata.
+                        </p>
+                        <p>
+                            Il “cuore” del deposito è il Gravettiano (strati 23–18), datato tra 32.000 e 21.000 anni fa:
+                            qui compaiono le prime prove di lavorazione dell’avena, le sepolture monumentali e un’industria litica
+                            altamente specializzata. Sopra questi livelli si sviluppa l’Epigravettiano, che accompagna la fase
+                            più fredda dell’ultima glaciazione e la successiva transizione verso un clima più mite.
+                        </p>
+                        <p>
+                            La stratigrafia di Paglicci è così completa da essere usata come riferimento per capire la cronologia
+                            del Paleolitico superiore in tutta l’Italia meridionale.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 3. UMANI -->
             <section id="umani" class="section">
                 <h2>3. Gli esseri umani di Paglicci: antropologia e DNA</h2>
                 <p class="section-lead">
-                    Le sepolture e i resti umani conservati nella grotta permettono di ricostruire caratteristiche fisiche,
-                    pratiche funerarie e collegamenti genetici tra i cacciatori-raccoglitori di Paglicci e le popolazioni europee di oggi.
+                    Resti scheletrici e DNA antico permettono di collegare direttamente i cacciatori-raccoglitori
+                    di Paglicci alle popolazioni europee di oggi.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: schede sulle sepolture, infografica sul DNA antico, note sull&apos;identità biologica.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Le sepolture e i resti umani della grotta appartengono a individui dell’Homo sapiens vissuti
+                            tra circa 35.000 e 23.000 anni fa. La loro conservazione ha permesso analisi genetiche
+                            di altissimo livello.
+                        </p>
+                        <p>
+                            Il famoso reperto “Paglicci 23” (circa 28.000 anni fa) ha restituito un DNA mitocondriale
+                            di aplogruppo H, lo stesso macro-lignaggio che oggi è il più diffuso in Europa. Questo dato
+                            ha spinto indietro nel tempo l’arrivo dell’aplogruppo H, dimostrando una continuità genetica
+                            profonda tra i cacciatori-raccoglitori paleolitici e molti europei attuali.
+                        </p>
+                        <p>
+                            Altri individui (come Paglicci 133, Paglicci 12 e Paglicci 25) mostrano aplogruppi rari
+                            o oggi quasi scomparsi, ma rivelano una realtà importante: nel Sud Italia del Paleolitico
+                            superiore convivevano linee genetiche diverse, all’interno di una stessa tradizione culturale.
+                            Paglicci diventa così un nodo fondamentale nella mappa genetica dell’Europa antica.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 4. VITA QUOTIDIANA -->
             <section id="vita-quotidiana" class="section">
                 <h2>4. Vivere nel Paleolitico superiore: la vita quotidiana</h2>
                 <p class="section-lead">
-                    Dieta, caccia, raccolta, trasformazione dei vegetali: Paglicci documenta come questi gruppi umani
-                    si adattavano alle stagioni e alle risorse del territorio durante l&apos;ultima glaciazione.
+                    A Paglicci si ricostruisce una vita fatta di caccia, raccolta, trasformazione dei vegetali
+                    e gestione raffinata delle risorse in un clima spesso estremo.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: ricostruzioni 3D di focolari, schede su fauna cacciata, animazioni su macine e pestelli.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Le ossa animali mostrano la caccia a grandi erbivori (uri, cavalli, cervidi) e a specie di taglia
+                            diversa, in un paesaggio che alternava boschi e aree aperte. Strumenti e resti botanici rivelano
+                            un uso attento delle risorse vegetali.
+                        </p>
+                        <p>
+                            Una delle scoperte più sorprendenti riguarda la lavorazione dell’avena circa 32.000 anni fa:
+                            su un pestello-macina dello strato 23A sono stati trovati granuli di amido di avena con tracce
+                            di tostatura e macinazione. Questo indica una catena operativa complessa: raccolta, trattamento
+                            termico, macinazione e probabilmente cottura di una sorta di “focaccia” o pappa.
+                        </p>
+                        <p>
+                            La dieta dei gruppi di Paglicci era quindi molto più varia di quanto si pensasse: non solo carne,
+                            ma anche carboidrati complessi, utili per garantire energia e conservazione del cibo in un ambiente
+                            climatico difficile.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 5. LITICA -->
             <section id="litica" class="section">
-                <h2>5. Tecnologie di pietra: l&apos;industria litica</h2>
+                <h2>5. Tecnologie di pietra: l’industria litica</h2>
                 <p class="section-lead">
-                    Lame, lamelle, punte e grattatoi documentano un alto livello di specializzazione tecnica.
-                    La pietra diventa prolungamento del corpo e strumento di sopravvivenza.
+                    Lame, lamelle, punte, bulini e microliti raccontano la storia di una tecnologia raffinata,
+                    costruita per affrontare prede, pelli e ambienti in cambiamento.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: galleria di utensili, animazione sulla scheggiatura, confronto Gravettiano / Epigravettiano.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Nei livelli gravettiani la produzione è orientata a lame e lamelle molto regolari. Tipiche sono
+                            le punte a dorso e le microgravettes, pensate per essere inserite su aste di legno o osso e usate
+                            come armi da caccia altamente efficaci.
+                        </p>
+                        <p>
+                            Nello strato 21 compaiono in grande quantità i bulini di Noailles, piccoli strumenti multifunzionali
+                            che collegano Paglicci a un orizzonte culturale europeo, pur con varianti locali. La presenza di
+                            forme come la Punta de La Font Robert indica contatti o circolazione di idee su lunga distanza.
+                        </p>
+                        <p>
+                            Con l’Epigravettiano gli strumenti si miniaturizzano: compaiono microliti geometrici (triangoli,
+                            semilune) probabilmente usati in armi composite, forse archi e frecce. Grattatoi corti, numerosi
+                            negli strati più alti, testimoniano l’importanza della lavorazione delle pelli per abiti e ripari.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 6. ARTE PARIETALE -->
             <section id="arte-parietale" class="section">
-                <h2>6. L&apos;arte parietale: cavalli, mani, simboli</h2>
+                <h2>6. L’arte parietale: cavalli, mani, simboli</h2>
                 <p class="section-lead">
-                    Cavalli in ocra rossa e impronte di mani fanno di Paglicci un caso unico per l&apos;arte parietale
-                    paleolitica in Italia. Le pareti diventano superfici di memoria e identità.
+                    Nella parte più interna della grotta, cavalli in ocra e impronte di mani trasformano le pareti
+                    in uno spazio simbolico raro nel panorama italiano.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: tour della sala delle pitture, focus sui pigmenti, confronto con altri siti europei.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            La sala delle pitture è accessibile solo attraverso cunicoli stretti: non è uno spazio “casuale”,
+                            ma un ambiente separato, probabilmente investito di significato speciale. Sulle pareti sono visibili
+                            cavalli dipinti in ocra rossa, alcuni in posizione verticale, con uno stile naturalistico che rende
+                            volumi e movimento.
+                        </p>
+                        <p>
+                            Un altro elemento potente sono le impronte di mani, sia positive (mano tinta e appoggiata)
+                            sia negative (colore spruzzato attorno alla mano). Questi gesti sono stati interpretati come forme
+                            di firma, presenza, o presa di possesso simbolico dello spazio.
+                        </p>
+                        <p>
+                            In Italia l’arte parietale paleolitica è rarissima: per questo Paglicci occupa un posto unico,
+                            accostabile ai grandi santuari franco-cantabrici come Lascaux e Altamira, pur restando radicata
+                            nella sua specificità geografica.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 7. ARTE MOBILIARE -->
             <section id="arte-mobiliare" class="section">
-                <h2>7. L&apos;arte mobiliare e gli oggetti simbolici</h2>
+                <h2>7. L’arte mobiliare e gli oggetti simbolici</h2>
                 <p class="section-lead">
-                    Incisioni su osso e pietra, figure animali e motivi astratti accompagnano la vita quotidiana.
-                    Gli oggetti diventano supporti portatili per idee e simboli.
+                    Ossa, pietre e lastre incise diventano supporti portatili per immagini, segni e forse racconti,
+                    che viaggiano insieme alle persone.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: immagini ad alta definizione, zoom sui dettagli incisi, brevi testi interpretativi.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Tra le opere più note c’è la lastra calcarea dello strato 14A, con il retrotreno di un cavallo
+                            dipinto in rosso, datata a circa 19.000 anni fa: lo stile ricorda sorprendentemente quello di Lascaux,
+                            suggerendo una circolazione di modelli artistici su vasta scala.
+                        </p>
+                        <p>
+                            Il femore di uro inciso con uno stambecco, datato a circa 23.000 anni fa, è la più antica opera
+                            mobiliare del sito: il profilo animale, molto realistico, convive con segni geometrici, forse legati
+                            a conteggi, calendari o simboli di altro tipo.
+                        </p>
+                        <p>
+                            Un frammento di bacino equino raffigura una rara scena dinamica di caccia con cavalli, cervi e segni
+                            interpretati come dardi. In altri casi compaiono segni a “V” incisi su teste di uro: potrebbero
+                            indicare ferite rituali, simboli sessuali o motivi astratti ricorrenti. In tutti questi oggetti
+                            emerge una tecnologia dell’arte precisa: preparazione del supporto, incisioni preliminari, ripasso,
+                            a volte con ocra sfregata nelle linee per far risaltare il disegno.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 8. SEPOLTURE -->
             <section id="sepolture" class="section">
                 <h2>8. Le sepolture: rituali, ocra, ornamenti</h2>
                 <p class="section-lead">
-                    Ocra rossa, denti perforati, conchiglie e corredi raccontano una cura per i morti che va oltre il semplice
-                    abbandono del corpo. La morte diventa spazio simbolico condiviso.
+                    Le tombe gravettiane di Paglicci mostrano un investimento simbolico straordinario:
+                    corpi cosparsi di ocra, ornamenti complessi, pigmenti lavorati con cura.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: ricostruzione delle sepolture, schede su corredi, confronto con altri siti europei.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            La sepoltura PAII contiene un adolescente di circa 12–13 anni, deposto supino e ricoperto
+                            di ocra rossa. Sul capo portava un diadema di denti di cervo forati; sul corpo e alle estremità
+                            erano presenti conchiglie e oggetti di pregio, insieme a un blocco di manganese inciso, usato
+                            per produrre pigmento nero.
+                        </p>
+                        <p>
+                            La sepoltura PAIII ospita una giovane donna di circa 18–20 anni, anch’essa immersa in ocra
+                            e ornata con elementi simili: denti di cervo, conchiglie, strumenti. Le analisi mostrano che
+                            i pigmenti erano trattati con grande competenza, macinati e selezionati per ottenere granulometrie
+                            e tonalità specifiche.
+                        </p>
+                        <p>
+                            Il fatto che individui così giovani ricevano sepolture tanto ricche pone interrogativi sulla
+                            struttura sociale: forse esistevano ranghi, famiglie prominenti o riti speciali legati a morti
+                            considerate “eccezionali”. In ogni caso, la cura dedicata ai corpi indica un mondo simbolico
+                            complesso, dove la morte è pensata e ritualizzata.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 9. CLIMA -->
             <section id="clima" class="section">
                 <h2>9. Clima e ambiente: sopravvivere alla glaciazione</h2>
                 <p class="section-lead">
-                    Paglicci si sviluppa in un contesto di forti oscillazioni climatiche.
-                    Fauna, flora e dati geologici mostrano come ambiente e cultura si intrecciano.
+                    Paglicci si sviluppa in un contesto di forti oscillazioni climatiche: dai picchi glaciali
+                    al progressivo riscaldamento, ambiente e cultura si influenzano a vicenda.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: mappe paleoclimatiche, grafici, bestiario del Gargano paleolitico.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Durante il Gravettiano e l’Epigravettiano, l’Europa attraversa l’Ultimo Massimo Glaciale.
+                            Molte aree del continente diventano difficilmente abitabili. Il Sud Italia, e in particolare
+                            il Gargano, funzionano invece come “rifugi climatici” dove le popolazioni possono sopravvivere
+                            e riorganizzarsi.
+                        </p>
+                        <p>
+                            I resti faunistici e botanici di Paglicci mostrano come l’ambiente cambi nel tempo: da paesaggi
+                            più aperti, adatti a grandi mandrie, a contesti progressivamente più boscosi, che richiedono
+                            nuove strategie di caccia e sfruttamento delle risorse.
+                        </p>
+                        <p>
+                            Le trasformazioni dell’industria litica, delle specie predate e delle tecniche di lavorazione
+                            del cibo sono la risposta concreta di questi gruppi umani a un clima in continuo movimento.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 10. BIOCULTURE -->
             <section id="bioculture" class="section">
-                <h2>10. Bioculture: l&apos;evoluzione della cultura come adattamento</h2>
+                <h2>10. Bioculture: l’evoluzione della cultura come adattamento</h2>
                 <p class="section-lead">
-                    Ambiente, tecnologia, simboli e alimentazione formano un sistema bioculturale.
-                    Paglicci è un osservatorio privilegiato per capire come l&apos;umano costruisce risposte complesse a sfide complesse.
+                    A Paglicci si vede come ambiente, biologia, tecnica e simboli formino un sistema unico:
+                    non esiste natura da una parte e cultura dall’altra.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: storyboard, infografiche che collegano clima, tecnica e simbolo.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Il paper interpreta Grotta Paglicci come un osservatorio bioculturale: le scelte
+                            alimentari, le tecnologie di scheggiatura, le pratiche funerarie e l’arte
+                            sono tutte risposte coordinate a condizioni ecologiche e sociali specifiche.
+                        </p>
+                        <p>
+                            La lavorazione dell’avena, ad esempio, non è solo un fatto tecnico: è una strategia
+                            energetica e logistica che modifica tempi, spostamenti e organizzazione dei gruppi.
+                            Le sepolture ricche, a loro volta, non sono solo “belle tombe”: sono meccanismi
+                            per stabilire ruoli, memoria e legami all’interno della comunità.
+                        </p>
+                        <p>
+                            Parlare di “dinamiche bioculturali” significa riconoscere che l’umano di Paglicci
+                            si definisce sempre nel rapporto con il suo ambiente, con il corpo, con gli altri
+                            e con i simboli che crea per dare senso a tutto questo.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 11. RICERCA OGGI -->
             <section id="ricerca" class="section">
                 <h2>11. Paglicci nella ricerca scientifica oggi</h2>
                 <p class="section-lead">
-                    Campagne di scavo, analisi di laboratorio, collaborazioni internazionali: il lavoro su Paglicci è un cantiere aperto,
-                    in cui nuove tecnologie continuano a produrre dati e interpretazioni.
+                    Dalle prime esplorazioni degli anni ’60 alle indagini multidisciplinari recenti,
+                    Paglicci è un cantiere scientifico in evoluzione.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: timeline delle ricerche, profili dei ricercatori, descrizione delle tecniche usate.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            Le prime indagini sistematiche furono avviate negli anni ’60 da Francesco Zorzi
+                            e Franco Mezzena, che individuarono le pitture parietali e resero noto il sito
+                            a livello internazionale. Negli anni ’70 la direzione passò ad Arturo Palma di Cesnola,
+                            che lavorò per oltre trent’anni sulla stratigrafia del Paleolitico superiore e sulle
+                            sepolture gravettiane.
+                        </p>
+                        <p>
+                            Dal 2002 in poi, nuove équipe hanno introdotto metodologie avanzate: analisi micro-stratigrafiche,
+                            paleobotanica, studio dei residui di amido, traceologia degli strumenti litici, paleogenetica.
+                            Questo ha permesso di recuperare “dati invisibili” agli scavi più antichi, come la farina di avena
+                            o i dettagli dei pigmenti usati nelle sepolture.
+                        </p>
+                        <p>
+                            Oggi Paglicci è al centro di una rete di ricerche internazionali che uniscono archeologia,
+                            biologia, geologia, chimica e fisica. È un esempio concreto di come un singolo sito
+                            possa cambiare la nostra visione della preistoria europea.
+                        </p>
+                    </div>
+                </details>
             </section>
 
+            <!-- 12. CONCLUSIONE -->
             <section id="conclusione" class="section section-conclusion">
                 <h2>12. Conclusione: che cosa significa essere umani?</h2>
                 <p class="section-lead">
-                    La storia di Grotta Paglicci intreccia biologia, ecologia e immaginazione simbolica.
-                    Questa sezione chiude il percorso invitando il visitatore a misurare la distanza – e la continuità – tra noi e
-                    i cacciatori-raccoglitori che hanno abitato la grotta.
+                    Grotta Paglicci è molto più di un deposito di reperti: è un racconto di resilienza,
+                    continuità e immaginazione, che collega il Paleolitico alla nostra identità presente.
                 </p>
-                <p class="section-note">
-                    ⟶ Qui potrai inserire: domande aperte per studenti, collegamenti con il presente, eventuali call to action.
-                </p>
+
+                <details class="section-details">
+                    <summary>Apri / chiudi il testo</summary>
+                    <div class="section-body">
+                        <p>
+                            I dati genetici mostrano che una parte dei nostri lignaggi attuali è già presente
+                            a Paglicci prima del massimo glaciale. Le innovazioni alimentari anticipano di millenni
+                            idee che associamo al Neolitico. L’arte parietale e mobiliare testimonia una capacità
+                            simbolica complessa, capace di trasformare ossa e rocce in immagini cariche di senso.
+                        </p>
+                        <p>
+                            Il Sud Italia appare come un refugium glaciale da cui, alla fine dell’ultima glaciazione,
+                            le popolazioni si ri-diffondono verso il resto d’Europa. Paglicci diventa così un nodo
+                            fondamentale di questa rete di andate e ritorni.
+                        </p>
+                        <p>
+                            In definitiva, la storia di Grotta Paglicci ci interroga su una domanda semplice e radicale:
+                            che cosa significa essere umani quando hai solo una grotta, il fuoco, strumenti di pietra
+                            e la capacità di pensare il mondo? Questa web app è un invito a continuare quella domanda,
+                            non a chiuderla.
+                        </p>
+                    </div>
+                </details>
             </section>
 
             <footer class="site-footer">
