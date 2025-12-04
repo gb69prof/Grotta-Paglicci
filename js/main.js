@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll("#navList a");
     const sections = document.querySelectorAll("main .section");
@@ -13,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const target = document.getElementById(targetId);
             if (target) {
                 target.scrollIntoView({ behavior: "smooth", block: "start" });
-                // Close menu on mobile
+                // Chiudi menu su mobile
                 if (window.innerWidth <= 900) {
                     navList.classList.remove("open");
                 }
@@ -21,14 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Toggle menu on mobile
+    // Toggle menu su mobile
     if (navToggle) {
         navToggle.addEventListener("click", () => {
             navList.classList.toggle("open");
         });
     }
 
-    // Highlight active section on scroll
+    // Evidenzia la sezione attiva durante lo scroll
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach(entry => {
