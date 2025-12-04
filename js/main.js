@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navToggle = document.getElementById("navToggle");
     const navList = document.getElementById("navList");
 
-    // Smooth scroll
+    // Smooth scroll sui link di navigazione
     navLinks.forEach(link => {
         link.addEventListener("click", (e) => {
             e.preventDefault();
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const target = document.getElementById(targetId);
             if (target) {
                 target.scrollIntoView({ behavior: "smooth", block: "start" });
-                // Chiudi menu su mobile
+                // Chiudi il menu su mobile dopo il click
                 if (window.innerWidth <= 900) {
                     navList.classList.remove("open");
                 }
@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Toggle menu su mobile
+    // Toggle menu laterale su schermi piccoli
     if (navToggle) {
         navToggle.addEventListener("click", () => {
             navList.classList.toggle("open");
         });
     }
 
-    // Evidenzia la sezione attiva durante lo scroll
+    // Evidenzia la sezione attiva nella sidebar
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach(entry => {
